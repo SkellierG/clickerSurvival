@@ -20,16 +20,61 @@
             </div>
         </header>
         <main>
+            <aside>
+                <div>
+                    <p><h2>Clicks x Season:</h2></p>
+                    <span id="clicksPerSeason">0</span>
+                    <p><h4>Restantes:</h4></p>
+                    <span id="clicksLeft">0</span>
+                </div>
+                <div>
+                    <p><b>Season </b><span id="seasonNumber">0</span></p>
+                    <span id="seasonText">Spring</span>
+                </div>
+                <div>
+                    <p><b>Adultos: </b><span>1</span></p>
+                    <p><b>Niños: </b><span>0</span></p>
+                </div>
+            </aside>
             <div>
-                <p>
-                    <button id="comidaBoton">Comida x 4</button>
-                    <span id="comidaSpan">: 0</span>
+                <p><h2>Recursos</h2></p>
+                <p><button id="nothing">Pasar el tiempo</button></p>
+                <p id="comida">
+                    <b>Max: </b><span id="comidaMax">0</span>
+                    <button id="comidaBoton">Comida</button>
+                    <b>: </b><span id="comidaSpan">0</span>
+                </p>
+                <p id="piedras">
+                    <b>Max: </b><span id="piedrasMax">0</span>
+                    <button id="piedrasBoton">Piedras</button>
+                    <b>: </b><span id="piedrasSpan">0</span>
+                </p>
+                <p id="ramas">
+                    <b>Max: </b><span id="ramasMax">0</span>
+                    <button id="ramasBoton">ramas</button>
+                    <b>: </b><span id="ramasSpan">0</span>
                 </p>
             </div>
         </main>
+        <article>
+            <div>
+                <p><h2>Tecnología</h2></p>
+                <p><b>Max: </b><span id="tecnoMax">0</span><button id="tecnoBoton">Puntos de tecnologia</button><b>: </b><span id="tecnoSpan">0</span></p>
+            </div>
+        </article>
+        <article>
+            <div>
+                <p><h2>Hogar</h2></p>
+                <p><h4>cueva</h4></p>
+            </div>
+            <div>
+                <button id="hogar">Entrar</button>
+            </div>
+        </article>
         <footer>
             
         </footer>
+        <script src="./modules/jquery.js"></script>
         <script src="./src/js/script.js"></script>
     </body>
 </html>
